@@ -178,144 +178,230 @@ Glossary
 --------
 
 **accept**
+
 When a server receives a connection on a port and starts listening and talking to it in some sort of protocol
 
+
 **Apache**
+
 Sometimes the open source software organisation giving us many great things, and sometimes the Apache HTTP Server which just gets called 'Apache'. Confusing
 
+
 **Apache conf**
+
 The collection of configuration files Apache reads to know what to do. Normally starts with httpd.conf or Apache.com and the others get `include`d
 
+
 **application**
+
 A program that runs on a computer
 
+
 **binary-compatible**
+
 A fancy word that means you can replace the program with another binary-compatible program and everything should work exactly as it used to
 
+
 **binding**
+
 When a server starts listening for connections on a port. Not to be confused with `BIND`, the DNS server implementation
 
+
 **browser**
+
 A program on a user's computer that knows how to speak HTTP and display web sites and other things
 
+
 **client**
+
 Sometimes a customer, but more often a program that talks to a server (via a connection)
 
+
 **computer**
+
 Really?
 
+
 **connection**
+
 An open communication, typically between a client and a server. Most connections for the web are over TCP
 
+
 **database**
+
 A program that is good at storing data records and relating them together in useful and interesting ways for you
 
+
 **database server**
+
 A server that provides access to a database
 
+
 **directive**
+
 A statement in an Apache conf file that means something to Apache
 
+
 **DNS**
+
 Domain Name System - a way of using human-readable names to represent resources on a network
 
+
 **DNS resolution**
+
 Given a domain name, finding the IP address it points to, e.g. for me www.google.com -> 216.58.213.131
 
+
 **DNS server**
+
 A server that provides DNS resolution
 
-**domain**
-**domain name**
+
+**domain**, **domain name**
+
 A textual representation for a resource, usually an IP address - e.g. www.google.com -> 216.58.213.131
 
+
 **editor**
+
 A program that's good at editing text-based files (e.g. code). Emacs is the best one, but Notepad++ is decent too. Vi is probably good. On Windows, Notepad is the devil
 
+
 **fork**
+
 A copy of a project's source code, normally created so that someone can do different things that the project maintainer/owner wouldn't allow them to in the main project. Often used to submit changes to a project
 
+
 **host**
+
 Either the stuff that lets someone see a website, or a specific server on which a website resides. As a verb it means 'to provide to clients'
 
+
 **hosts file**
+
 The super special file that is checked before any DNS resolution is attempted. Think of it as a basic and private DNS server and you're halfway there
 
+
 **HTTP**
+
 Hypertext Transfer Protocol - a protocol for serving web pages
 
+
 **IP**
+
 Internet Protocol - a protocol for communicating data over a network
 
+
 **ipv4**
+
 The old and outdated 4-byte addressing scheme, e.g. 8.8.4.4 (Google's DNS server)
 
+
 **ipv6**
+
 The new and swanky 16-byte addressing scheme, e.g. 2001:4860:4860::8844
 
+
 **localhost**
+
 A special domain that exclusively means 'this computer'
 
-**MariaDB**
-**MySQL**
+
+**MariaDB**, **MySQL**
+
 A popular database server and client
 
+
 **name-based virtual host**
+
 An Apache concept allowing different sites to be served to different domains on the same Apache server
 
+
 **open source**
+
 A style of licensing encouraging collaboration and sharing. Free as in freedom, and often free as in beer
 
+
 **operating system**
+
 The thing you use to interact with your computer hardware. Popular examples include Windows, Linux, Android and OS X
 
+
 **port 443**
+
 The normal port for HTTPS connections
 
+
 **port 80**
+
 The normal port for HTTP connections
 
+
 **program**
+
 A set of instructions your operating system knows how to execute in order to achieve something. Examples include Minesweeper, Apache and Bash. More loosely it can refer to a set of code that the computer can execute in some way, e.g. a PHP script
 
+
 **protocol**
+
 A set of rules for communicating. The rules typically define a message structure that allows for efficient and effective relaying of data and actions depending on the requirements. Examples include HTTP, HTTPS, FTP and IP
 
+
 **registrar**
+
 A company or organisation that's responsible for tracking who gets to decide which domains point at which IPs and other DNS-related things
 
+
 **server**
+
 Either a program that listens for connections and speaks to clients, or sometimes a physical computer that runs a server (program). E.g. Apache is a server (program) and my previous company had about 30 servers (physical or virtual machines) each of which ran one or two Apache servers (program). Confusing, eh?
 
+
 **shell**
+
 A program that typically makes it easy to run other programs. Examples include Bash, dash and PowerShell
 
+
 **slashes**
+
 Either / or \. The first is a forward slash and is widely used in every popular OS other than Windows and also on the web. The second is a backslash typically used for indicating that the following character is special in some way, or for separating path elements on Windows
 
+
 **SSL**
+
 Secure Socket Layer - a means of encrypting a connection so that only the server and client can understand what's being communicated
 
+
 **SSL certificate**
+
 A certificate that helps a client talking to a server over SSL trust that the server is who it says it is. For example, SSL would allow me to securely talk to www.google.com but it won't help me know that www.google.com is actually some horrible attacker from next door. SSL certificates will warn me that although I appear to be talking to www.google.com I'm probably talking to www.hacker-next-door.com
 
+
 **tcp**
+
 Transmission Control Protocol - An impossible-to-remember acronym and a protocol that adds error correction and synchronous communication on top of IP. It's so commonly used with IP that generally things claim to use TCP/IP. An alternative to TCP for different requirements is UDP
 
-**TLD**
-**top level domain**
+
+**TLD**, **top level domain**
+
 The last bit of a domain name, e.g. the `com` in `google.com`. There are now many more of these than there used to be
 
-**vhost**
-**virtual host**
-**virtualhost**
+
+**vhost**, **virtual host**, **virtualhost**
+
 A website that Apache knows to serve based on the domain you ask for. Also can refer to the vhost config or the root directory of the vhost
 
+
 **web server**
+
 A server (program) that knows how to speak HTTP, HTTPS and sometimes some other things. Serves web pages
 
+
 **WordPress**
+
 Some sort of PHP-based blog-slash-CMS type thing
 
+
 **XAMPP**
+
 A bundle of technologies (I think run by Apache?) that includes an Apache web server, MariaDB database server and client, and PHP. Maybe some other things
